@@ -1,0 +1,302 @@
+[
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -1.4495080709457397,
+    "trace_beta": -0.00033121852902695537,
+    "frobenius_norm": 0.34468990564346313
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -3.8970649242401123,
+    "trace_beta": -3.861193545162678e-05,
+    "frobenius_norm": 0.7817276120185852
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -6.339005470275879,
+    "trace_beta": 0.0017350417328998446,
+    "frobenius_norm": 1.245589017868042
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -8.768440246582031,
+    "trace_beta": 0.005922435782849789,
+    "frobenius_norm": 1.7135484218597412
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -11.187155723571777,
+    "trace_beta": 0.013522560708224773,
+    "frobenius_norm": 2.1825554370880127
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -13.588484764099121,
+    "trace_beta": 0.02603447064757347,
+    "frobenius_norm": 2.649881601333618
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -15.970412254333496,
+    "trace_beta": 0.04241589456796646,
+    "frobenius_norm": 3.11460542678833
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -18.334915161132812,
+    "trace_beta": 0.061236437410116196,
+    "frobenius_norm": 3.576690912246704
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -20.684467315673828,
+    "trace_beta": 0.08171230554580688,
+    "frobenius_norm": 4.0363545417785645
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -23.020917892456055,
+    "trace_beta": 0.10348641872406006,
+    "frobenius_norm": 4.493905067443848
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -25.346271514892578,
+    "trace_beta": 0.12616504728794098,
+    "frobenius_norm": 4.949656963348389
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -27.662494659423828,
+    "trace_beta": 0.149501234292984,
+    "frobenius_norm": 5.403942584991455
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -29.97089195251465,
+    "trace_beta": 0.17335288226604462,
+    "frobenius_norm": 5.85695743560791
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -32.27256393432617,
+    "trace_beta": 0.19760338962078094,
+    "frobenius_norm": 6.30886173248291
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -34.568321228027344,
+    "trace_beta": 0.22217890620231628,
+    "frobenius_norm": 6.7597832679748535
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -36.85885238647461,
+    "trace_beta": 0.2470361292362213,
+    "frobenius_norm": 7.209836006164551
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -39.14476013183594,
+    "trace_beta": 0.2721371650695801,
+    "frobenius_norm": 7.659116268157959
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -41.426605224609375,
+    "trace_beta": 0.29745152592658997,
+    "frobenius_norm": 8.107715606689453
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -43.704830169677734,
+    "trace_beta": 0.3229539096355438,
+    "frobenius_norm": 8.555708885192871
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -45.979793548583984,
+    "trace_beta": 0.34862324595451355,
+    "frobenius_norm": 9.003154754638672
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -48.251808166503906,
+    "trace_beta": 0.3744366466999054,
+    "frobenius_norm": 9.450104713439941
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -50.521156311035156,
+    "trace_beta": 0.4003724753856659,
+    "frobenius_norm": 9.896599769592285
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -52.78803634643555,
+    "trace_beta": 0.42641061544418335,
+    "frobenius_norm": 10.342676162719727
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -55.05265426635742,
+    "trace_beta": 0.45255011320114136,
+    "frobenius_norm": 10.78836727142334
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -57.31513214111328,
+    "trace_beta": 0.4787817895412445,
+    "frobenius_norm": 11.233691215515137
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -59.575626373291016,
+    "trace_beta": 0.5050973892211914,
+    "frobenius_norm": 11.678675651550293
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -61.834266662597656,
+    "trace_beta": 0.531489908695221,
+    "frobenius_norm": 12.123342514038086
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -64.09119415283203,
+    "trace_beta": 0.5579534769058228,
+    "frobenius_norm": 12.56771469116211
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -66.34651947021484,
+    "trace_beta": 0.5844834446907043,
+    "frobenius_norm": 13.011810302734375
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -68.60032653808594,
+    "trace_beta": 0.6110769510269165,
+    "frobenius_norm": 13.455646514892578
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -70.85271453857422,
+    "trace_beta": 0.6377294063568115,
+    "frobenius_norm": 13.899237632751465
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -73.10379028320312,
+    "trace_beta": 0.6644368171691895,
+    "frobenius_norm": 14.34260082244873
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -75.35360717773438,
+    "trace_beta": 0.6911956667900085,
+    "frobenius_norm": 14.785747528076172
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -77.60224914550781,
+    "trace_beta": 0.7180027961730957,
+    "frobenius_norm": 15.228694915771484
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -79.84977722167969,
+    "trace_beta": 0.7448548674583435,
+    "frobenius_norm": 15.671449661254883
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -82.09628295898438,
+    "trace_beta": 0.7717496156692505,
+    "frobenius_norm": 16.114023208618164
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -84.34176635742188,
+    "trace_beta": 0.7986832857131958,
+    "frobenius_norm": 16.556427001953125
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -86.58633422851562,
+    "trace_beta": 0.8256528377532959,
+    "frobenius_norm": 16.998668670654297
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -88.83001708984375,
+    "trace_beta": 0.8526566028594971,
+    "frobenius_norm": 17.440757751464844
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -91.0728530883789,
+    "trace_beta": 0.8796929121017456,
+    "frobenius_norm": 17.88270378112793
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -93.3149185180664,
+    "trace_beta": 0.9067598581314087,
+    "frobenius_norm": 18.324512481689453
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -95.55621337890625,
+    "trace_beta": 0.9338562488555908,
+    "frobenius_norm": 18.766189575195312
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -97.7967758178711,
+    "trace_beta": 0.9609804749488831,
+    "frobenius_norm": 19.20774269104004
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -100.03665924072266,
+    "trace_beta": 0.9881311655044556,
+    "frobenius_norm": 19.6491756439209
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -102.27586364746094,
+    "trace_beta": 1.015307068824768,
+    "frobenius_norm": 20.090496063232422
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -104.51445770263672,
+    "trace_beta": 1.0425070524215698,
+    "frobenius_norm": 20.531705856323242
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -106.75245666503906,
+    "trace_beta": 1.0697301626205444,
+    "frobenius_norm": 20.972814559936523
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -108.98986053466797,
+    "trace_beta": 1.096975326538086,
+    "frobenius_norm": 21.413822174072266
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -111.2267074584961,
+    "trace_beta": 1.124241590499878,
+    "frobenius_norm": 21.854732513427734
+  },
+  {
+    "hermiticity_error": 0.0,
+    "trace_alpha": -113.46302032470703,
+    "trace_beta": 1.1515278816223145,
+    "frobenius_norm": 22.295549392700195
+  }
+]

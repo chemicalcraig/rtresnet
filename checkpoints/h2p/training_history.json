@@ -1,0 +1,50 @@
+{
+  "train_loss": [
+    0.3765468017621474,
+    0.24021390811963514,
+    0.05266950662163171
+  ],
+  "val_loss": [
+    0.3572259085873763,
+    0.127520731339852,
+    0.036048888539274536
+  ],
+  "learning_rates": [
+    1.0900000000000002e-05,
+    2.0800000000000004e-05,
+    3.07e-05
+  ],
+  "physics_metrics": [
+    {
+      "hermiticity_error": 0.0,
+      "trace_mae": 0.05284826379890243,
+      "frobenius_error": 0.12604005572696528,
+      "min_eigenvalue": -0.0358749534158657,
+      "max_eigenvalue": 2.02746574083964,
+      "negative_eigenvalues": 124.16666666666667
+    },
+    {
+      "hermiticity_error": 0.0,
+      "trace_mae": 0.5846724087993304,
+      "frobenius_error": 0.2531854808330536,
+      "min_eigenvalue": -0.204409155373772,
+      "max_eigenvalue": 1.7738944590091705,
+      "negative_eigenvalues": 153.29166666666666
+    },
+    {
+      "hermiticity_error": 0.0,
+      "trace_mae": 1.2293970535198848,
+      "frobenius_error": 0.4867897679408391,
+      "min_eigenvalue": -0.47397780294219655,
+      "max_eigenvalue": 1.5069195330142975,
+      "negative_eigenvalues": 172.375
+    }
+  ],
+  "epoch_times": [
+    1.7123668193817139,
+    1.3637781143188477,
+    1.3714640140533447
+  ],
+  "best_epoch": 2,
+  "best_val_loss": 0.036048888539274536
+}

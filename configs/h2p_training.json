@@ -1,0 +1,51 @@
+{
+  "model": {
+    "type": "DensityResNet",
+    "max_nbf": 4,
+    "hidden_dim": 128,
+    "num_resnet_blocks": 4,
+    "history_length": 5,
+    "n_spin": 2,
+    "dropout": 0.1,
+    "overlap_mode": "spectral",
+    "field_encoder_type": "simple",
+    "apply_hermitian_projection": true,
+    "apply_mcweeney_projection": false,
+    "apply_trace_scaling": false,
+    "comment": "H2+ has 4 basis functions, smaller model is sufficient"
+  },
+  "physics": {
+    "n_electrons": [1.0, 0.0],
+    "comment": "H2+ has 1 electron in alpha channel, beta is empty"
+  },
+  "loss": {
+    "weight_mse": 1.0,
+    "weight_hermitian": 0.1,
+    "weight_idempotency": 0.05,
+    "weight_trace": 0.1,
+    "weight_positivity": 0.0
+  },
+  "data": {
+    "density_file": "test/h2p/data/density_series.npy",
+    "overlap_file": "test/h2p/data/overlap.npy",
+    "field_file": "test/h2p/data/field.npy",
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "batch_size": 32,
+    "num_workers": 0,
+    "normalize": true,
+    "normalization_mode": "frobenius"
+  },
+  "training": {
+    "epochs": 200,
+    "learning_rate": 1e-4,
+    "weight_decay": 1e-5,
+    "gradient_clip": 1.0,
+    "warmup_epochs": 10,
+    "early_stopping_patience": 30,
+    "checkpoint_dir": "checkpoints/h2p",
+    "save_every": 25
+  },
+  "device": "cuda",
+  "seed": 42
+}

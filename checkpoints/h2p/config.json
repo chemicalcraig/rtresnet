@@ -1,0 +1,85 @@
+{
+  "model": {
+    "type": "DensityResNet",
+    "max_nbf": 4,
+    "hidden_dim": 128,
+    "num_resnet_blocks": 4,
+    "history_length": 5,
+    "n_spin": 2,
+    "dropout": 0.1,
+    "overlap_mode": "spectral",
+    "field_dim": 3,
+    "apply_hermitian_projection": true,
+    "apply_mcweeney_projection": false,
+    "apply_trace_scaling": false,
+    "field_encoder_type": "simple",
+    "comment": "H2+ has 4 basis functions, smaller model is sufficient"
+  },
+  "physics": {
+    "n_electrons": [
+      1.0,
+      0.0
+    ],
+    "comment": "H2+ has 1 electron in alpha channel, beta is empty"
+  },
+  "loss": {
+    "weight_mse": 1.0,
+    "weight_hermitian": 0.1,
+    "weight_idempotency": 0.05,
+    "weight_trace": 0.1,
+    "weight_positivity": 0.0
+  },
+  "data": {
+    "density_file": "test/h2p/data/density_series.npy",
+    "overlap_file": "test/h2p/data/overlap.npy",
+    "field_file": "test/h2p/data/field.npy",
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "normalize": true,
+    "normalization_mode": "frobenius",
+    "batch_size": 32,
+    "num_workers": 0
+  },
+  "training": {
+    "epochs": 3,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-05,
+    "optimizer": "adamw",
+    "scheduler": {
+      "type": "cosine",
+      "warmup_epochs": 10,
+      "min_lr": 1e-06
+    },
+    "early_stopping": {
+      "enabled": true,
+      "patience": 50,
+      "min_delta": 1e-06
+    },
+    "gradient_clip": 1.0,
+    "mixed_precision": false,
+    "checkpoint_dir": "checkpoints/h2p",
+    "log_interval": 10,
+    "save_interval": 50,
+    "warmup_epochs": 10,
+    "early_stopping_patience": 30,
+    "save_every": 25
+  },
+  "prediction": {
+    "mode": "single_step",
+    "rollout_steps": 100,
+    "bootstrap_steps": 5,
+    "output_file": "predicted_densities.npy",
+    "save_interval": 10
+  },
+  "device": "cpu",
+  "seed": 42,
+  "normalization": {
+    "mode": "frobenius",
+    "mean_real": null,
+    "mean_imag": null,
+    "std_real": null,
+    "std_imag": null,
+    "scale": 0.27664405859773117
+  }
+}
